@@ -27,7 +27,7 @@ txt_parentesco.insert(0, "")
 
 
 def meu_click():
-    botao= Label(tela, text="" + "Nome: " + txt_nome.get() + "\n" + "Idade: " + txt_idade.get() + "\n" + "Telefone: " + txt_telefone.get() + "\n" + "Grau parentesco: " + txt_parentesco.get())
+    botao= Label(tela, text="" + "Nome: " + txt_nome.get() + " | " + "Idade: " + txt_idade.get() + " | " + "Telefone: " + txt_telefone.get() + " | " + "Grau parentesco: " + txt_parentesco.get())
     botao.pack()
     
     
