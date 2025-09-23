@@ -10,6 +10,10 @@ tela = Tk()
 
 tela.geometry("700x600")
 
+# Limitando o tamanho da tela
+
+tela.maxsize(width=700, height=600)
+
 
 # Ajusatando as configurações da tela, nesse caso a cor de fundo da tela.
 
